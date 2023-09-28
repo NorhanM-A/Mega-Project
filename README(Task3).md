@@ -15,6 +15,7 @@ This repository provides a guide on how to connect the components of a UAV (Unma
    - The flight controller is the core component responsible for managing the UAV's flight operations, including stabilization, navigation, and control.
    - It needs to receive accurate GPS data from the GPS module (Here3+) to determine the UAV's position, altitude, and velocity.
    - The Cube Orange+ also communicates with the on-board computer (Jetson Nano) to receive high-level commands and send telemetry data.
+     
 
 2. **Firmware (ArduPlane/ArduCopter)**:
    - The firmware running on the flight controller defines the behavior and control algorithms of the UAV.
@@ -61,4 +62,16 @@ This repository provides a guide on how to connect the components of a UAV (Unma
   # Diagram:
 ![image](https://github.com/NorhanM-A/Mega-Project/assets/72838396/16d095ef-94b0-4344-b219-92c652fd74a5)
 
+
+Here's a concise summary of the connections between the components of the UAV system:
+
+- Flight Controller (Cube Orange+) is connected to GPS (Here3+), Telemetry RFD900, and On-board Computer (Jetson Nano).
+
+- GPS (Here3+) is connected to the Flight Controller (Cube Orange+).
+
+- Telemetry RFD900 is connected to the Flight Controller (Cube Orange+) and Ground Control Station (5GHz RF).
+
+- On-board Computer (Jetson Nano) is connected to the Flight Controller (Cube Orange+) and communicates for high-level processing.
+
+- Ground Control Station (5GHz RF) is connected to Telemetry RFD900 for data exchange.
 
