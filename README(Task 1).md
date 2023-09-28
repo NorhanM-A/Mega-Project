@@ -26,9 +26,13 @@ Mission Planner is a powerful ground control station software for planning, moni
 
 [![Obstacle Avoidance]https://drive.google.com/file/d/1dGji04lGaqQHL1SUb-QbIlr27KNVm8FN/view?usp=drive_link
 - **Description:** This video illustrates obstacle avoidance in a simulated flight. When the drone detects an obstacle along its flight path, it autonomously returns to the home location to avoid a collision.
+
+- 
 ## Video 4: Obstacle Avoidance (Successfully avoiding the obstacle without RTL)
 https://drive.google.com/file/d/1Hdw9mM34UobvORVkSGMm4uK9hfifm69J/view?usp=sharing
-- **Description:** In this video successful obstacle avoidance was achieved by going around the obstacle with no need for returning to the launch point and also without cancelling other waypoints along gthe way.
+- **Description:** In this video successful obstacle avoidance was achieved by going around the obstacle with no need for returning to the launch point and also without cancelling other waypoints along the way.
+
+
 ## Custom Programming for Obstacle Avoidance
 
 It's important to note that the obstacle avoidance behavior demonstrated in Video 3, where the drone returns home or avoids the remaining waypoints upon detecting an obstacle, is a basic behavior provided by default in many flight planning tools, including Mission Planner. If you require more advanced obstacle avoidance capabilities, such as having the drone navigate around obstacles while continuing its mission, custom programming and additional hardware may be necessary.
