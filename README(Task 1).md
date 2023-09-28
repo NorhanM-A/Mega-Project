@@ -4,7 +4,7 @@ Google Drive link: https://drive.google.com/drive/folders/1TBIbz1A3e-m7vlDX9Z_a0
 
 # Mission Planner Flight Simulation README
 
-This README provides an overview of how to simulate a flight using Mission Planner and includes three videos showcasing different flight scenarios.
+This README provides an overview of how to simulate a flight using Mission Planner and includes four videos showcasing different flight scenarios.
 
 
 
