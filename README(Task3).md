@@ -52,20 +52,7 @@ This repository provides a guide on how to connect the components of a UAV (Unma
 4. **Flight Controller to On-board Computer (Jetson Nano)**:
    - This connection allows the on-board computer to send navigation commands and mission plans to the flight controller.
    - The flight controller sends telemetry data back to the on-board computer for real-time monitoring and decision-making.
-### This Connection is especially important because:
 
-- **Enables High-Level Control**: Allows the On-board Computer to send advanced navigation commands and mission plans to the Flight Controller, enabling autonomous and adaptive flight.
-
-- **Facilitates Real-time Data Exchange**: Provides real-time telemetry data from the Flight Controller, allowing operators to monitor the UAV's performance and make informed decisions during flight.
-
-- **Enhances Safety and Redundancy**: Offers redundancy and fail-safe mechanisms, improving UAV safety by allowing one system to assist or take over in case of issues.
-
-- **Integrates Advanced Capabilities**: Lets the On-board Computer run advanced algorithms and AI models, enhancing the UAV's capabilities for tasks like object recognition and autonomous navigation.
-
-- **Supports Real-time Monitoring and Diagnostics**: Enables operators to receive alerts and perform diagnostics during flight, ensuring reliability and safety.
-
-In summary, this connection combines low-level flight control with high-level decision-making, making the UAV adaptable, capable, and safe for a range of applications.
-==============================================================================================================================================================================
 
 5. **On-board Computer (Jetson Nano) for High-Level Processing**:
    - The Jetson Nano handles computationally intensive tasks such as computer vision, object detection, and mission planning.
@@ -90,13 +77,19 @@ Here's a concise summary of the connections between the components of the UAV sy
 
 - Ground Control Station (5GHz RF) is connected to Telemetry RFD900 for data exchange.
 
-  ### Explaination:
-The choice of connecting the on-board computer (Jetson Nano) to the flight controller (Cube Orange+) is justified because this connection allows for seamless integration of high-level processing tasks and low-level flight control. It enables the on-board computer to send precise navigation commands to the flight controller, which can then execute them. Additionally, telemetry data from the flight controller can be transmitted back to the on-board computer for real-time monitoring and decision-making.
+  ## Explaination:
+ ### - **Connection of the on-board computer (Jetson Nano) to the flight controller (Cube Orange+):**
+1. **Enables High-Level Control**: Allows the On-board Computer to send advanced navigation commands and mission plans to the Flight Controller, enabling autonomous and adaptive flight. 2.  **Facilitates Real-time Data Exchange**: Provides real-time telemetry data from the Flight Controller, allowing operators to monitor the UAV's performance and make informed decisions during flight.
 
-For the plus task of including the 5GHz RF link between the ground control station and the on-board computer, this addition ensures a high-speed, reliable data link for mission planning, real-time monitoring, and remote control. The 5GHz RF link aligns with best practices for maintaining a robust and responsive connection between the ground station and the UAV's on-board computer, especially for tasks like video streaming, VNC (Virtual Network Computing) , and SSH (Secure Shell).
+3.  **Enhances Safety and Redundancy**: Offers redundancy and fail-safe mechanisms, improving UAV safety by allowing one system to assist or take over in case of issues.
 
+4.  **Integrates Advanced Capabilities**: Lets the On-board Computer run advanced algorithms and AI models, enhancing the UAV's capabilities for tasks like object recognition and autonomous navigation.
 
-The use of a 5GHz RF (Radio Frequency) link in the context of a UAV (Unmanned Aerial Vehicle) system, as mentioned in your previous question, is important for several reasons:
+5.  **Supports Real-time Monitoring and Diagnostics**: Enables operators to receive alerts and perform diagnostics during flight, ensuring reliability and safety.
+
+**In summary, this connection combines low-level flight control with high-level decision-making, making the UAV adaptable, capable, and safe for a range of applications.**
+
+### - **Using 5GHz link**
 
 1. **High Data Rate**: The 5GHz RF band offers significantly higher data transfer rates compared to lower frequency bands. This higher data rate is crucial for tasks that require the transmission of large amounts of data, such as high-definition video streaming, real-time telemetry, and data exchange between the ground control station and the on-board computer. It enables the system to transmit data quickly and efficiently, ensuring that critical information reaches its destination without delays.
 
@@ -108,4 +101,4 @@ The use of a 5GHz RF (Radio Frequency) link in the context of a UAV (Unmanned Ae
 
 5. **Reduced Latency**: The high data rate and low interference of the 5GHz RF link contribute to reduced communication latency. Low latency is essential for tasks that require real-time control and decision-making, such as piloting the UAV and responding to changing flight conditions promptly.
 
-Overall, the use of a 5GHz RF link enhances the reliability, speed, and efficiency of communication between the ground control station and the UAV's on-board computer. This is crucial for ensuring that the UAV can perform effectively in various scenarios, including competitions, where rapid and secure data exchange is essential for mission success and safety.
+**Overall, the use of a 5GHz RF link enhances the reliability, speed, and efficiency of communication between the ground control station and the UAV's on-board computer. This is crucial for ensuring that the UAV can perform effectively in various scenarios, including competitions, where rapid and secure data exchange is essential for mission success and safety.**
