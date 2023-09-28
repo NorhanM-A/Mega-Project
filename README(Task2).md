@@ -578,3 +578,6 @@ for image_path in image_files:
     plt.suptitle("Predicted Colors: " + ', '.join(predicted_color_labels))
     plt.show()
 ```
+
+![image](https://github.com/NorhanM-A/Mega-Project/assets/72838396/cb206d72-0325-46b6-8ce5-cafa62334f20)
+
