@@ -60,7 +60,8 @@ This repository provides a guide on how to connect the components of a UAV (Unma
 
 
   # Diagram:
-![image](https://github.com/NorhanM-A/Mega-Project/assets/72838396/16d095ef-94b0-4344-b219-92c652fd74a5)
+![image](https://github.com/NorhanM-A/Mega-Project/assets/72838396/3c41c48c-386e-4b5f-8f8f-75c9bb233a4b)
+
 
 
 Here's a concise summary of the connections between the components of the UAV system:
